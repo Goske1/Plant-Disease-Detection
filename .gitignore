@@ -1,0 +1,86 @@
+# ── Lecture notes & personal documents ────────────────────────────────────────
+*.pdf
+*.pptx
+*.docx
+docs/lecture_notes/
+
+# ── Secrets & credentials ─────────────────────────────────────────────────────
+.env
+.env.*
+*.key
+*.pem
+*.p12
+api_keys*
+secrets*
+credentials*
+*_secret*
+*_token*
+config/local.py
+
+# ── Dataset & model artefacts (large binaries) ────────────────────────────────
+dataset/
+data/
+raw/
+models/
+*.h5
+*.hdf5
+*.pb
+*.onnx
+*.pt
+*.pth
+*.pkl
+*.joblib
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+.virtualenv/
+
+# ── Node / JS (if any tooling) ────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ── Claude Code & RuFlo internals ─────────────────────────────────────────────
+.claude/
+.claude-flow/
+.ruflo/
+*.jsonl
+
+# ── IDEs & editors ────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Jupyter ────────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Logs & temp ───────────────────────────────────────────────────────────────
+logs/
+*.log
+tmp/
+temp/
