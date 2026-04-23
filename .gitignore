@@ -18,9 +18,11 @@ credentials*
 config/local.py
 
 # ── Dataset & model artefacts (large binaries) ────────────────────────────────
-dataset/
+dataset/**
+!dataset/**/
+!dataset/**/.gitkeep
 data/
-raw/
+/raw/
 models/
 *.h5
 *.hdf5
