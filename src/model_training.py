@@ -202,8 +202,16 @@ if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser(description="Train plant disease CNN with Keras.")
-    parser.add_argument("--data",   required=True,        help="Root of split dataset (train/val/test subfolders)")
-    parser.add_argument("--output", default="models/run", help="Directory for checkpoints and plots")
+    parser.add_argument(
+        "--data",
+        default=r"C:\Users\gokse\yeni-proje\dataset\split",
+        help="Root of split dataset (train/val/test subfolders)",
+    )
+    parser.add_argument(
+        "--output",
+        default=r"C:\Users\gokse\yeni-proje\models\run",
+        help="Directory for checkpoints and plots",
+    )
     args = parser.parse_args()
 
     train(args.data, args.output)
