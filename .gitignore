@@ -61,7 +61,7 @@ npm-debug.log*
 yarn-error.log*
 package-lock.json
 
-# ── Claude Code & RuFlo internals ─────────────────────────────────────────────
+# ── Local tool & config directories ──────────────────────────────────────────
 .claude/
 .claude-flow/
 .ruflo/
